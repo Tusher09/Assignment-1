@@ -1,0 +1,20 @@
+.flexible{
+    display: flex;
+    background-image: url(image/background1.jpg);
+    background-repeat: no-repeat;
+}
+.color{
+    color: orangered;
+}
+h1{
+    font-family: 'Otomanopee One', sans-serif;
+}
+p{
+    font-family: 'Otomanopee One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.skip-the-diet{
+    width: 50%;
+    margin-top: 130px;
+
+}
