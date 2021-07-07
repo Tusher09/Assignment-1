@@ -1,4 +1,4 @@
-.flexible{
+.first-section{
     display: flex;
     background-image: url(image/background1.jpg);
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ padding-right: 5%;
     padding-left: 10%;
 }
 .button{
-    background-image: linear-gradient(rgb(231, 28, 13), tomato);
+    background-image: linear-gradient(rgb(231, 28, 13), rgb(122, 99, 185));
     font-family: 'Otomanopee One', sans-serif;
     font-weight: 800;
     color: rgb(241, 235, 229);
@@ -39,6 +39,7 @@ padding-right: 5%;
     margin-top: 30px;
     border: none;
     display:inline-block;
+    
 }
 body{
     margin: 0;
@@ -52,10 +53,44 @@ body{
     width: 70%;
     padding-left: 5%;
 }
-.Flexible{
+.middle-section{
     display: flex;
     background-image: url(image/background2.jpg);
     background-repeat: no-repeat;
     padding-top: 130px;
     padding-bottom: 50px;
+}
+
+
+
+.flexible-last{
+    display: flex;
+}
+.block{
+    display: inline-block;
+    background-color: white;
+    border: 12px solid white;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 25px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(132, 138, 132);
+}
+.block img{
+    width: 100%;
+}
+.last-section{
+    background-image: url(image/background3.jpg);
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.my-recipies{
+    text-align: center;
+ 
 }
