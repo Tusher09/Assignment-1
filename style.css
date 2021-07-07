@@ -6,6 +6,9 @@
     padding-bottom: 50px;
 
 }
+body{
+    margin: 0;
+}
 .color{
     color: orangered;
 }
@@ -88,9 +91,27 @@ body{
     background-image: url(image/background3.jpg);
     background-repeat: no-repeat;
     padding-top: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .my-recipies{
     text-align: center;
  
 }
+#sign-up{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.login{
+    display: inline;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+   text-align: center;
+}
+
